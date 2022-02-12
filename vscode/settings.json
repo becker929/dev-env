@@ -1,0 +1,109 @@
+{
+    /**
+   * Better Defaults
+   **/
+   "editor.copyWithSyntaxHighlighting": false,
+   "diffEditor.ignoreTrimWhitespace": false,
+   "editor.emptySelectionClipboard": false,
+   "workbench.editor.enablePreview": false,
+   "window.newWindowDimensions": "inherit",
+   "editor.multiCursorModifier": "ctrlCmd",
+   "files.trimTrailingWhitespace": true,
+   "diffEditor.renderSideBySide": false,
+   "editor.snippetSuggestions": "none",
+   "window.nativeFullScreen": false,
+   "files.insertFinalNewline": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "terminal.integrated.scrollback": 100000,
+    "editor.largeFileOptimizations": false,
+    "windowColors.🌈 Theme": "light",
+    "workbench.colorTheme": "SynthWave '84",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "[plaintext]": {
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.parameterHints.enabled": false,
+    "editor.wordBasedSuggestions": false,
+    "editor.quickSuggestions": false
+    },
+    "editor.detectIndentation": false,
+    "files.autoSave": "afterDelay",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.sideBar.location": "right",
+    "workbench.editor.showTabs": false,
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false,
+    /**
+   * Silence The Noise
+   */
+   "breadcrumbs.enabled": false,
+   "scm.diffDecorations": "none",
+   "editor.hover.enabled": false,
+   "editor.matchBrackets": "never",
+   "workbench.tips.enabled": false,
+   "editor.colorDecorators": false,
+   "git.decorations.enabled": false,
+   "workbench.startupEditor": "none",
+   "editor.lightbulb.enabled": false,
+   "editor.selectionHighlight": false,
+   "editor.overviewRulerBorder": false,
+    "editor.renderLineHighlight": "none",
+   "editor.occurrencesHighlight": false,
+   "problems.decorations.enabled": false,
+   "editor.renderControlCharacters": false,
+   "editor.hideCursorInOverviewRuler": true,
+   "editor.gotoLocation.multipleReferences": "goto",
+   "editor.gotoLocation.multipleDefinitions": "goto",
+   "editor.gotoLocation.multipleDeclarations": "goto",
+   "workbench.editor.enablePreviewFromQuickOpen": false,
+   "editor.gotoLocation.multipleImplementations": "goto",
+   "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    /**
+   * Typography
+   **/
+   "editor.fontSize": 16,
+   "editor.lineHeight": 45,
+   "editor.suggestFontSize": 16,
+   "editor.suggestLineHeight": 28,
+   "terminal.integrated.fontSize": 15,
+    "terminal.integrated.lineHeight": 1.5,
+    /**
+    * Typography
+   **/
+   "editor.fontFamily": "Fira Code",
+   /**
+   * Full Bleed
+   **/
+   "window.titleBarStyle": "native",
+   "customizeUI.titleBar": "inline",
+   "customizeUI.stylesheet": {
+    // ".editor .title": "background: transparent !important;",
+    // ".editor .title .label-container": "visibility: hidden;",
+    // Hide top-right buttons
+    // ".editor .title .actions-container .action-item a": "visibility: hidden;",
+    // Show top-right "settings goto icon"
+    // ".editor .title .actions-container .action-item a[title=\"Open Settings (UI)\"]": "visibility: initial;",
+    // ".editor .title .actions-container .action-item a[title=\"Open Settings (JSON)\"]": "visibility: initial;",
+    // Make it the "right-most" icon.
+    ".editor .title .actions-container": "flex-direction: row-reverse;",
+    // Only show the scrollbar on hover.
+    ".editor .scrollbar .slider": "visibility: hidden",
+    ".editor .scrollbar:hover .slider": "visibility: initial",
+},
+"terminal.integrated.macOptionIsMeta": true,
+"workbench.activityBar.visible": false,
+"extensions.ignoreRecommendations": true,
+"[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
+}
+
