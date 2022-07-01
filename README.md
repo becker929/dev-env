@@ -7,7 +7,7 @@ My dev environment configuration
 
 If syncing is allowed, use VS Code settings sync options.
 
-Otherwise, run `Preferences: Open Settings (JSON) and paste `settings.json`. Then run `Preferences: Open Keyboard Shortcuts (JSON)` and paste `keybindings.json`. 
+Otherwise, run `Preferences: Open Settings (JSON)` and paste `settings.json`. Then run `Preferences: Open Keyboard Shortcuts (JSON)` and paste `keybindings.json`. 
 
 ## font
 
