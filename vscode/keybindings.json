@@ -204,7 +204,7 @@
         "when": "workbench.explorer.openEditorsView.active"
     },
     {
-        "key": "cmd+m cmd+r",
+        "key": "cmd+k cmd+r",
         "command": "workbench.view.explorer",
         "when": "viewContainer.workbench.view.explorer.enabled"
     },
